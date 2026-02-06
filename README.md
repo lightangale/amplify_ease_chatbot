@@ -124,5 +124,3 @@ Response:
   "reply": "Hello! Here's information about our product..."
 }
 ```
-
-Done! 🎉
