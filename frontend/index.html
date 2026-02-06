@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amplify Ease - AI Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">AmplifyEase</div>
+            <ul class="nav-menu">
+                <li><a href="#solutions">Custom AI Solutions</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main Section -->
+    <section class="main">
+        <div class="main-content">
+            <h1>Amplify your business with AI.</h1>
+            <div class="features">
+                <p>📈 Amplify Sales</p>
+                <p>⚡ Automate Workflows</p>
+                <p>💬 Enhance Customer Experience with AI-enabled chatbots</p>
+            </div>
+            <p class="description">Simplify, automate, and scale your business with AI-powered custom solutions.</p>
+            <button class="cta-button">Get a Free Consultation</button>
+        </div>
+    </section>
+
+    <!-- Floating Widget Button -->
+    <button class="widget-toggle" id="widgetToggle" title="Open Chat">💬</button>
+
+    <!-- Chat Widget Container -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Amplify Ease</h2>
+                <button class="close-btn" id="closeBtn">✕</button>
+            </div>
+            
+            <div class="messages" id="messages"></div>
+            
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Type a message..." 
+                    autocomplete="off"
+                >
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
