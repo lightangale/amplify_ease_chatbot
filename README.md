@@ -18,13 +18,6 @@ Clean, simple chatbot using:
 ```bash
 cd backend
 
-# Create virtual environment
-python -m venv venv
-
-# Activate it
-venv\Scripts\activate  # Windows
-# or: source venv/bin/activate  # Mac/Linux
-
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -84,43 +77,4 @@ amplify_ease_chatbot/
 5. Backend returns response to frontend
 6. Frontend displays in chat
 
-## Features
 
-✅ Clean, simple HTML/CSS/JS interface
-✅ AI-powered responses via Gemini
-✅ CORS enabled for frontend-backend communication
-✅ Error handling
-✅ Mobile responsive design
-
-## Troubleshooting
-
-### "GEMINI_API_KEY not found"
-- Make sure .env file is in root directory
-- Make sure you added your API key: `GEMINI_API_KEY=xxxx`
-
-### "Connection refused" error
-- Make sure Flask backend is running: `python app.py`
-- Make sure it's on port 5000
-
-### No responses from bot
-- Check browser console for errors (F12)
-- Make sure API key is valid
-- Check Flask server logs
-
-## API Endpoint
-
-**POST** `/api/chat`
-
-Request:
-```json
-{
-  "message": "Hello, tell me about your product"
-}
-```
-
-Response:
-```json
-{
-  "reply": "Hello! Here's information about our product..."
-}
-```
