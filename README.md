@@ -1,5 +1,3 @@
-# Amplify Ease Chatbot - Simple Setup
-
 Clean, simple chatbot using:
 - **Frontend**: Plain HTML, CSS, JavaScript
 - **Backend**: Python Flask
